@@ -1,6 +1,6 @@
 # Medal of Honor Airborne Unofficial Remaster
 
-My attempt at the remaster Airborne never got. It's a mod loader and 17 mods for the PC version that go through pretty much every part of the game: a new HUD, 1:1 damage, harder AI that you can tune per difficulty, lean, hold breath and stamina, suppression, ragdolls, a proper look for every map, longer view distance and reworked tanks. Plus a settings app so you can switch any of it off, and that keeps the pack up to date for you.
+My attempt at the remaster Airborne never got. It's a mod loader and many mods for the PC version that go through pretty much every part of the game: a new HUD, 1:1 damage, harder AI that you can tune per difficulty, lean, hold breath and stamina, suppression, ragdolls, a proper look for every map, longer view distance and reworked tanks. Plus a settings app so you can switch any of it off, and that keeps the pack up to date for you.
 
 I built it around my own Expert playthroughs, so out of the box it's on the hard and realistic side. If that's not your thing, almost all of it can be turned down or off.
 
