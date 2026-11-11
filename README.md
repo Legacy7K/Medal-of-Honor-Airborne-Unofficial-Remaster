@@ -135,6 +135,6 @@ Open an issue here and attach `Binaries\MOHAModLoader\loader.log` and `problems.
 
 ## Credits
 
-Made by Kev-O. Medal of Honor: Airborne belongs to EA. The textures, sounds and icons all come from the game itself, apart from a few extra sounds I made for the pack.
+Made by Kev-O. Inspired by IDrinkLava's Revamp Project. Medal of Honor: Airborne belongs to EA. The textures, sounds and icons all come from the game itself, apart from a few extra sounds I made for the pack. The page artwork uses the game's official key art (© Electronic Arts).
 
 Please don't reupload this anywhere without asking me first. If you want to use part of it in your own mod, just ask.
