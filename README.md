@@ -1,6 +1,6 @@
 # Medal of Honor Airborne Unofficial Remaster
 
-My attempt at the remaster Airborne never got. It's a mod loader and 17 mods for the PC version that go through pretty much every part of the game: a new HUD, 1:1 damage, harder AI that you can tune per difficulty, lean, hold breath and stamina, suppression, ragdolls, a proper look for every map, longer view distance and reworked tanks. Plus a settings app so you can switch any of it off.
+My attempt at the remaster Airborne never got. It's a mod loader and 17 mods for the PC version that go through pretty much every part of the game: a new HUD, 1:1 damage, harder AI that you can tune per difficulty, lean, hold breath and stamina, suppression, ragdolls, a proper look for every map, longer view distance and reworked tanks. Plus a settings app so you can switch any of it off, and that keeps the pack up to date for you.
 
 I built it around my own Expert playthroughs, so out of the box it's on the hard and realistic side. If that's not your thing, almost all of it can be turned down or off.
 
@@ -86,7 +86,6 @@ Everything in the pack is in one window. Every option has a short explanation of
 - An in-game reader on ~ that shows what every mod is doing, handy if something goes wrong.
 - The fix for not being able to get back into the game after alt-tabbing.
 - The old debug keys are turned off (no more accidental free weapon upgrades on F11).
-- A 4GB patch as a separate download. Strongly recommended with the longer view distance.
 
 ## Controls that change
 
@@ -109,17 +108,15 @@ Every one of these can be changed in the settings app.
 2. Copy `Binaries` and `MOHAGame` from the zip's `Game Folder` into `UnrealEngine3` and say yes to replace. `dinput8.dll` has to end up next to `MOHA.exe`.
 3. Move the six `MOHA*.ini` files out of `Documents\EA Games\Medal of Honor Airborne(tm)\Config` so the game makes fresh ones. You'll have to set your resolution and keys again.
 4. Start the game. You'll see REMASTERED on the splash screen and a badge on the main menu.
-5. Optional but recommended: grab the 4GB patch and run it once.
+5. Optional but strongly recommended with the longer view distance: download the 4GB patch from the same page and run it once.
 
 The full guide, uninstall steps and troubleshooting are in the README inside the zip. To turn the whole thing off quickly, just delete `Binaries\dinput8.dll`.
 
 ## Updating
 
-Open the settings app and press **Check for Updates**. If there's a newer version here it shows what's new and installs it for you: it downloads the update, closes the app, puts the new files in and opens the app again. Close the game first.
+Close the game, open the settings app and press **Check for Updates**. If there's a newer version it downloads it with a progress bar, then installs it and opens the app again.
 
 Updating replaces your settings with the new version's defaults. Backing up your old settings isn't recommended, because new versions can add or change settings and an old backup can bring back outdated values.
-
-You can also just download the latest zip from [Releases](https://github.com/Legacy7K/Medal-of-Honor-Airborne-Unofficial-Remaster/releases) and install it over the top.
 
 ## Requirements
 
@@ -130,7 +127,7 @@ You can also just download the latest zip from [Releases](https://github.com/Leg
 
 ## Antivirus warnings
 
-Your browser or antivirus might flag the download. It's a false positive. It happens because the mod loader is a `dinput8.dll` that loads itself into the game when it starts, which is the same trick a lot of game mods and fixes use, and because the settings app can download updates from this page. If it gets blocked, allow it, or check it on VirusTotal yourself first.
+Your browser or antivirus might flag the download. It's a false positive. The mod loader is a `dinput8.dll` that loads itself into the game when it starts, which is the same trick a lot of game mods and fixes use. If it gets blocked, allow it, or check it on VirusTotal yourself first.
 
 ## Problems?
 
