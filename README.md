@@ -4,7 +4,7 @@ My attempt at the remaster Airborne never got. It's a mod loader and 17 mods for
 
 I built it around my own Expert playthroughs, so out of the box it's on the hard and realistic side. If that's not your thing, almost all of it can be turned down or off.
 
-This is a fan project. It's not official and EA / DICE have nothing to do with it.
+This is a fan project. It's not official and EA / DICE have nothing to do with it. There is a lot of new modifications and features. Most things have been changed so make sure to OVERWRITE your previous install. Please let me know if you encounter any bugs/issues. There is also a (TEST) category in the settings app which is OFF by default. If you would like to use it, give it a try and let me know.
 
 **[Download the latest version](https://github.com/Legacy7K/Medal-of-Honor-Airborne-Unofficial-Remaster/releases/latest)**
 
@@ -16,75 +16,76 @@ Everyone takes the same damage from the same gun. You, your squad, the Germans, 
 
 | | Casual | Normal | Expert |
 |---|---|---|---|
-| Enemy AI | the game's own | halfway to the harder AI | the full harder AI |
-| Enemies | the game's numbers | the game's numbers | double |
-| Your health | 3x | 2x | 1x |
-| Healing | whole bar, 5 s after you're hurt | the quarter you're in, after 15 s | never |
-| Enemy shots that miss on purpose | 50% | 25% | none |
+| Enemy AI | a quarter of the harder AI | three quarters of the harder AI | the full harder AI |
+| Your health | 2.5x | 1x | 0.5x |
+| Healing | whole bar, 5 s after you're hurt | the quarter you're in, after 10 s | never |
+| Enemy shots that miss on purpose | 50% | 10% | none |
 | HUD | on | on | none |
 
-Enemies far away also miss more often on Casual and Normal, and on Casual they take a couple of seconds to get their shots onto you. Expert has none of that.
+Enemy numbers are the game's own on every difficulty. Double the enemies on Expert is still in the pack (the Enemy Population mod), switched off by default.
+
+Enemies far away also take a few seconds to get their shots onto you (5 s on Casual, 2.5 s on Normal). Expert has none of that.
 
 ## The enemy
 
-They engage from further out, use cover better, peek less and push harder. Now and then they move to new cover, firing as they go, and when they get close they stand and fight instead of running past you. No more stopping to do hand signals in the middle of a fight either. They only see the 90 degrees in front of them, so no more turning on the spot to shoot you in the back. They also split their fire between you and your squad instead of all piling onto you.
+They engage from further out, use cover better, peek less and push harder. Now and then they move to new cover, firing as they go, and when they get close they stand and fight instead of running past you. No more stopping to do hand signals in the middle of a fight either. They only see the 75 degrees in front of them, so no more turning on the spot to shoot you in the back. They also split their fire between you and your squad instead of all piling onto you.
 
-Everyone moves faster than in the original. Enemies and your squad walk at 600 and sprint at 900 (the game's own is 500 / 600).
+Enemies and your squad move at a steady 500 whether they're walking or sprinting (the game's own is 500 / 600).
 
-The Nazi Storm Elite are an actual threat now. They take 20x the punishment of a normal soldier and jog instead of plodding along. Headshots won't drop them in one either. Kill one and he can drop his MG42 for you to pick up (still being tested).
+The Nazi Storm Elite are an actual threat now. They take 20x the punishment of a normal soldier, and on Normal and Expert they jog instead of plodding along. Headshots won't drop them in one either.
 
 ## Your squad
 
-With everyone doing full damage, your squad was clearing half the fights before you even got there. Now they're 25% worse shots, engage from closer in, a quarter of their bullets miss and their hits do three quarters of the damage. They keep the enemy busy, you do the killing.
+With everyone doing full damage, your squad was clearing half the fights before you even got there. Now they're 50% worse shots, engage from half the distance, half their bullets miss and their hits do half damage. They keep the enemy busy, you do the killing.
 
 ## Tanks
 
-- They spot you from up to 300 m, keep firing where they last saw you after you break line of sight, and are always looking for a new target.
-- The turret crew and the hull crew watch different directions. Get behind both, or right up against the tank below where they can look, and you're invisible to it.
-- The main gun has a realistic reload and a 30 degree a second turret. It won't aim at you when you're right up close, but a moving tank will happily drive over you instead.
+- They spot you from up to 150 m and look for a new target every couple of seconds. On Expert they keep firing where they last saw you after you break line of sight.
+- The crews watch all round, so sneaking up behind a tank won't save you. Get right up against it, below where they can look, and it can't see you.
+- The main gun has a realistic reload and a slow 15 degree a second turret. It won't aim at you when you're right up close, but a moving tank will happily drive over you instead.
 - Tanks that drive a route can stop to fight you, pull up now and then, drive on to get a better angle when their shot is blocked, and swing the turret back to the front once there's nobody left.
 - Hit a tank and it stops, and if it can't see you the turret sweeps around looking for you. Wreck its tracks and the engine keeps running until you finish it off.
 - Tanks are heard from much further away and never go quiet in a big fight.
 
 ## Weapons and movement
 
-- Lean on Q / E, from the hip or down the sights, and you can walk while leaning.
+- Lean on Q / E, from the hip or down the sights, and you can walk while leaning. Numpad lean keys work with Num Lock on or off.
 - Hold breath on Left Alt, on iron sights and scopes. On a scope it slows the game down for a moment, like the upgrade slow-mo.
 - Stamina, shared between sprinting and holding your breath. Sprint it dry and you're walking until you get it back.
 - Light breathing sway when you aim, worse when you move or after a sprint, better crouched.
 - Hip fire actually scatters now and every gun kicks harder.
-- MG nests are a handful. They spray 2.5x wider and kick 2.5x harder, and the enemy gunners on them spray twice as wide.
+- MG nests are a handful. They spray 5x wider and kick twice as hard, and the enemy gunners on them spray twice as wide.
 - Reload a Thompson, MP40, BAR or StG 44 early and the rounds left in the magazine go with it. Barrels smoke after a few rifle shots or a long burst.
 - Every gun kicks half as much while you're crouched.
 - Suppression. Rounds cracking past you blur and darken the edges of the screen and jolt the camera, and when it gets really heavy your hearing goes and your ears ring.
 - Ragdolls that fall depending on where they were hit, with the game's own death animation about one time in four. Bodies are heavy, they never hang in the air or fly off, and they stick around instead of vanishing when you look away.
 - Badly hurt, you hear slow, heavy breathing and your heartbeat.
-- Movement with some weight to it (still being tested): you build up to speed, the gun trails a little behind your movements, the camera catches up a moment later and moves with your steps. Each part can be switched off.
+- Movement with some weight to it: you build up to speed, the gun trails a little behind your movements, the camera catches up a moment later and moves with your steps, the lean eases in and out, and the view eases to a stop after you move the mouse. Each part can be turned down or off.
 - Weapon upgrades no longer slow everything down or blur the screen.
 - German scopes for the Gewehr 43 and the StG44.
 
 ## HUD
 
-A new HUD in the style of a 1940s newsreel. Thin lines, spaced out capitals, italic serif type, no boxes anywhere.
+A new HUD that keeps the game's own look, its brackets, the red cross and a steel-blue health bar, with spaced out capitals and italic serif type.
 
 - A compass along the top with your current objectives and how far away they are.
-- Health as one thin line with how you're doing written above it: Fit for duty, Lightly wounded, Wounded, Seriously wounded.
-- Your weapon, its upgrade stars, the ammo and your grenades.
-- A small crosshair that shows where your shots will actually land, traced from the gun, not the middle of the screen.
+- Health as four segments with how you're doing written above it: Fit for duty, Lightly wounded, Wounded, Seriously wounded. It goes red and pulses when you're nearly dead.
+- Your weapon, its upgrade stars, the ammo and your grenades. Handguns show their unlimited reserve as an infinity sign.
+- An optional small crosshair that shows where your shots will actually land, traced from the gun, not the middle of the screen (off by default).
 - A stamina bar, grenade warnings, objective notices, and stars for how well you landed after a jump.
 - New scopes with a sharp eyepiece, and a blurred world around them instead of a black screen.
 
 ## Graphics and sound
 
-Every map has its own look, each with its own page in the settings app. Husky is a warm night with a light haze, Avalanche cold with fog, Neptune and Der Flakturm grey and stormy with thunder and lightning, Market Garden dusty and Varsity has ash falling from the burning factory. On top of that there's ambient occlusion, sharpening, a film-style colour grade, better bloom and lens flare, light shafts, film grain, motion blur only on fast turns, and clouds and wind streaks rushing past on parachute jumps. There's also tone mapping, depth of field on iron sights, shell shock, barrel heat haze, lens dirt, fog glow, breath frost on Avalanche, wet ground reflections and contact shadows, plus SMAA anti-aliasing. The game can run on Vulkan through DXVK, and the 60 frames a second cap can be lifted.
+Every map has its own look, each with its own page in the settings app. Husky is a warm night with a light haze, Avalanche cold with fog, Neptune and Der Flakturm grey and stormy with thunder and lightning, Market Garden dusty and Varsity has ash falling from the burning factory. On top of that there's ambient occlusion, sharpening, a film-style colour grade, better bloom and lens flare, light shafts, film grain, motion blur only on fast turns, and clouds and wind streaks rushing past on parachute jumps. There's also tone mapping, depth of field on iron sights, shell shock, barrel heat haze, lens dirt, fog glow, breath frost on Avalanche, wet ground reflections and contact shadows, plus SMAA anti-aliasing. The game runs on Vulkan through DXVK (you can switch it back to Direct3D 9), and the 60 frames a second cap is lifted.
 
-View distance is 5x further and the field of view is wider (120, 105 aiming, 135 sprinting). All adjustable.
+View distance is 10x further for buildings, scenery and detail, and the field of view is wider (120, 105 aiming, 135 sprinting). All adjustable.
 
-You'll also hear a battle going on around you: distant artillery, machine guns, rifle fire and planes overhead, all using the game's own sounds. It goes quiet indoors and fades in on the way down from a jump. Every gunshot echoes a little off the buildings and hills around it, and gunshots carry five times further.
+You'll also hear a battle going on around you: distant artillery, machine guns, rifle fire and planes overhead, all using the game's own sounds. It goes quiet indoors and fades in on the way down from a jump. Every gunshot echoes a little off the buildings and hills around it, and gunshots carry five times further. On High Sound Quality the game can play 150 sounds at once instead of 91, and tank sounds are never the ones it drops.
 
 ## Settings app
 
-Everything in the pack is in one window. Every option has a short explanation of what it does, there's a Reset button for each page, and Launch Game starts the game for you. It also has the game's own launcher settings and full key bindings, with two keys per action, so you can put weapon switching and scope zoom on the mouse wheel together.
+Everything in the pack is in one window. Every option has a short explanation of what it does, there's a Reset button for each page, and Launch Game starts the game for you. It also has the game's own launcher settings and full key bindings, with two keys per action, so you can put weapon switching and scope zoom on the mouse wheel together. Tanks that stay put and tanks that drive a route each have their own copy of every tank setting. And it plays music while it's open, with a volume control in the top left.
 
 ## Extras
 
@@ -93,7 +94,8 @@ Everything in the pack is in one window. Every option has a short explanation of
 - The fix for not being able to get back into the game after alt-tabbing.
 - The old debug keys are turned off (no more accidental free weapon upgrades on F11).
 - Skip the EA intro and the logo screen when the game starts.
-- Class selection extras, off by default while they're being tested: rocket launchers and the Storm Elite's MG42 in the class selection, slot rules and coloured gun pictures.
+- Class Selection (TEST) in the settings app, off by default while it's being tested: the Storm Elite dropping his MG42 for you to pick up, rocket launchers and the MG42 in the class selection, slot rules, coloured gun pictures and every gun loaded in ready from the start.
+- A crash guard: a surface missing the lighting it needs is drawn plainly instead of crashing the game.
 
 ## Controls that change
 
