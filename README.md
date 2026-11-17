@@ -7,10 +7,10 @@
 <p><strong>Casual</strong> - enemy AI a quarter of the way to the pack's harder AI. You have 2.5x health and the whole bar comes back 5 seconds after you get hurt.</p>
 <p><strong>Normal</strong> - enemy AI three quarters of the way to the pack's harder AI. Normal health, and 10 seconds after you get hurt the quarter of the bar you're in fills back up.</p>
 <p><strong>Expert</strong> - the full harder AI. Half health, no healing at all and no HUD. What you lose stays lost.</p>
-<p>Enemy numbers are the game's own on every difficulty. Double the enemies on Expert is still in the pack (the Enemy Population mod), switched off by default.</p>
-<p>Some enemy shots miss you on purpose on the lower difficulties (50% on Casual, 10% on Normal, none on Expert), and enemies far away take a few seconds to get their shots onto you (5 s on Casual, 2.5 s on Normal). Again, nothing like that on Expert.</p>
+<p>Enemy numbers are the game's own on Casual and Normal, and doubled on Expert (the Enemy Population mod).</p>
+<p>Some enemy shots miss you on purpose on the lower difficulties (50% on Casual, 25% on Normal, none on Expert), and enemies far away take a few seconds to get their shots onto you (5 s on Casual, 2.5 s on Normal). Again, nothing like that on Expert.</p>
 <h2>THE ENEMY</h2>
-<p>They engage from further out, use cover better, peek less and push harder. Now and then they move to new cover, firing as they go, and when they get close they stand and fight instead of running past you. No more stopping to do hand signals in the middle of a fight either. They only see the 75 degrees in front of them, so no more turning on the spot to shoot you in the back. They also split their fire between you and your squad instead of all piling onto you.</p>
+<p>They engage from further out, use cover better, peek less and push harder. Now and then they move to new cover, firing as they go, and when they get close they stand and fight instead of running past you. No more stopping to do hand signals in the middle of a fight either. They only see the 60 degrees in front of them, so no more turning on the spot to shoot you in the back. They also split their fire between you and your squad instead of all piling onto you.</p>
 <p>Enemies and your squad move at a steady 500 whether they're walking or sprinting (the game's own is 500 / 600).</p>
 <p>The Nazi Storm Elite are an actual threat now. They take 20x the punishment of a normal soldier, and on Normal and Expert they jog instead of plodding along. Headshots won't drop them in one either. Apart from that they're left exactly as the game made them, same AI and same aim.</p>
 <h2>YOUR SQUAD</h2>
@@ -18,7 +18,7 @@
 <h2>TANKS</h2>
 <p>Tank crews are a lot more dangerous and a lot more believable:</p>
 <ul>
-<li>They spot you from up to 150 m and look for a new target every couple of seconds. On Expert they keep firing where they last saw you after you break line of sight.</li>
+<li>They spot you from up to 150 m and check for targets several times a second. A tank that drives a route stops to fight after seeing you for 2.5 seconds and turns its gun on you after 5; a tank that stays put takes 2.5 seconds. Their shells fly twice as fast, hit twice as hard and blast twice as wide, and the hull machine gun opens up as soon as it sees you. On Expert they keep firing where they last saw you after you break line of sight.</li>
 <li>The crews watch all round, so sneaking up behind a tank won't save you. Get right up against it, below where they can look, and it can't see you.</li>
 <li>The main gun has a realistic reload and a slow 15 degree a second turret. It won't aim at you when you're right up close, but a moving tank will happily drive over you instead.</li>
 <li>Tanks that drive a route can stop to fight you, pull up now and then, drive on to get a better angle when their shot is blocked, and swing the turret back to the front once there's nobody left.</li>
@@ -33,8 +33,9 @@
 <li>Breathing sway when you aim, worse when you move or after a sprint, better crouched.</li>
 <li>Hip fire actually scatters now and every gun kicks harder.</li>
 <li>MG nests are a handful. They spray 5x wider and kick twice as hard, and the enemy gunners on them spray twice as wide.</li>
-<li>Reload a Thompson, MP40, BAR or StG 44 early and the rounds left in the magazine go with it. Barrels smoke after a few rifle shots or a long burst.</li>
+<li>Reload a box-magazine gun (Thompson, MP40, BAR, StG 44 or Gewehr 43) early and the rounds left in the magazine go with it. Pistols (endless ammo) and guns loaded a round at a time keep their rounds. Barrels smoke after a few rifle shots or a long burst.</li>
 <li>Every gun kicks half as much while you're crouched.</li>
+<li>Grenades are twice as loud and deeper, and their blast reaches twice as far. Your grenades, melee and every other hit can hurt your own squad too.</li>
 <li>Suppression. Rounds cracking past you blur and darken the edges of the screen and jolt the camera, and when it gets really heavy your hearing goes and your ears ring.</li>
 <li>Ragdolls that fall depending on where they were hit, with the game's own death animation about one time in four. Bodies are heavy, they never hang in the air or fly off, and they stick around instead of vanishing when you look away.</li>
 <li>Badly hurt, you hear slow, heavy breathing and your heartbeat.</li>
@@ -44,12 +45,13 @@
 <h2>HUD</h2>
 <p>A new HUD that keeps the game's own look, its brackets, the red cross and a steel-blue health bar, with spaced out capitals and italic serif type.</p>
 <ul>
-<li>A compass along the top with your current objectives and how far away they are.</li>
+<li>A compass along the top with your current objectives and how far away they are, your squad as green dots and enemies who fire as red dots that fade out (within 100 m).</li>
 <li>Health as four segments with how you're doing written above it: Fit for duty, Lightly wounded, Wounded, Seriously wounded. It goes red and pulses when you're nearly dead.</li>
 <li>Your weapon, its upgrade stars, the ammo and your grenades. Handguns show their unlimited reserve as an infinity sign.</li>
-<li>An optional small crosshair that shows where your shots will actually land, traced from the gun, not the middle of the screen (off by default).</li>
+<li>A small crosshair that shows where your shots will actually land, traced from the gun, not the middle of the screen.</li>
 <li>A stamina bar, grenade warnings, objective notices, and stars for how well you landed after a jump.</li>
 <li>New scopes with a sharp eyepiece, and a blurred world around them instead of a black screen.</li>
+<li>Prefer the game's own HUD? Switch the new one off and you can move every part of it (compass, ammo, grenades, health and more) to any corner, edge or the centre, nudge it into place and make it bigger for 4K. Loading screens can be made bigger too.</li>
 <li>No HUD at all on Expert.</li>
 </ul>
 <h2>GRAPHICS AND SOUND</h2>
@@ -65,7 +67,7 @@
 <li>An in-game reader on ~ that shows what every mod is doing, handy if something goes wrong.</li>
 <li>The fix for not being able to get back into the game after alt-tabbing.</li>
 <li>The old debug keys are turned off (no more accidental free weapon upgrades on F11).</li>
-<li>Skip the EA intro and the logo screen when the game starts.</li>
+<li>Skip the intros when the game starts: one setting skips the title screen with the ESRB notice and the EA logo intro, straight to the main menu.</li>
 <li>Class Selection in the settings app (Testing Only category), off by default while it's being tested: the Storm Elite dropping his MG42 for you to pick up, rocket launchers and the MG42 in the class selection, slot rules, coloured gun pictures and every gun loaded in ready from the start.</li>
 <li>A crash guard: a surface missing the lighting it needs is drawn plainly instead of crashing the game.</li>
 <li>A 4GB patch as a separate download. Strongly recommended with the longer view distance.</li>
