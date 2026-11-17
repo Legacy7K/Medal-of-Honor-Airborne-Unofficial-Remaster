@@ -94,7 +94,7 @@ Everything in the pack is in one window. Every option has a short explanation of
 - The fix for not being able to get back into the game after alt-tabbing.
 - The old debug keys are turned off (no more accidental free weapon upgrades on F11).
 - Skip the EA intro and the logo screen when the game starts.
-- Class Selection (TEST) in the settings app, off by default while it's being tested: the Storm Elite dropping his MG42 for you to pick up, rocket launchers and the MG42 in the class selection, slot rules, coloured gun pictures and every gun loaded in ready from the start.
+- Class Selection (TEST) in the settings app, off by default while it's being tested: the Storm Elite dropping his MG42 for you to pick up, rocket launchers and the MG42 in the class selection, slot rules, coloured gun pictures and every gun loaded in ready from the start - this can cause crashes.
 - A crash guard: a surface missing the lighting it needs is drawn plainly instead of crashing the game.
 
 ## Controls that change
